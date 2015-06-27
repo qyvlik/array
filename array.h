@@ -3,6 +3,7 @@
 
 #include <list>
 #include <vector>
+#include <iostream>
 
 using std::list;
 using std::vector;
@@ -25,7 +26,7 @@ public:
         return *this;
     }
 
-    virtual ~Array(){}
+    virtual ~Array(){ }
 
     class Iterator{
         Array& data;
